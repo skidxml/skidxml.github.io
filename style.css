@@ -2,3 +2,33 @@
     font-family: pixel;
     src: url(pixel.ttf);
 }
+body {
+    font-family: pixel;
+    background-color: #19121f;
+    margin: 25px;
+}
+a:link {
+    color: #de59ff; background-color: transparent; text-decoration: none;
+}
+a:visited {
+    color: #a644d3; background-color: transparent; text-decoration: none;
+}
+a:hover {
+    color: #f68fff; background-color: transparent; text-decoration: underline;
+}
+a:active {
+    color: #ffffff; background-color: transparent; text-decoration: underline;
+}
+hr {
+    border: 1px solid #ffffff80;
+}
+p {
+    color:#cdc7d8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1 {
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
