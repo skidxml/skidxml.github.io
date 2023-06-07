@@ -1,6 +1,7 @@
 @font-face {
     font-family: pixel;
     src: url(pixel.ttf);
+    size-adjust: 100%;
 }
 body {
     font-family: pixel;
@@ -27,13 +28,13 @@ hr {
 
 p {
     color:#cdc7d8;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 h1, h2, h3, h4, h5, h6 {
     color:#ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 .title {
