@@ -5,29 +5,30 @@
 }
 body {
     font-family: pixel;
-    background-color: #19121f;
+    background-color: #14171a;
     margin: 25px;
 }
 
 a:link {
-    color: #de59ff; background-color: transparent; text-decoration: none;
+    color: #8fba7d; background-color: transparent; text-decoration: none;
 }
 a:visited {
-    color: #a644d3; background-color: transparent; text-decoration: none;
+    color: #64a36d; background-color: transparent; text-decoration: none;
 }
 a:hover {
-    color: #f68fff; background-color: transparent; text-decoration: underline;
+    color: #c0db94; background-color: transparent; text-decoration: underline;
 }
 a:active {
-    color: #ffffff; background-color: transparent; text-decoration: underline;
+    color: #e8ffb2; background-color: transparent; text-decoration: underline;
 }
 
 hr {
+    margin-top: 24px;
     border: 1px solid #ffffff80;
 }
 
 p {
-    color:#cdc7d8;
+    color:#c8d8c7;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -46,4 +47,23 @@ h1 {
     float: center;
     text-align: center;
     padding: 16px;
+    margin-bottom: 24px;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #00000000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #64a36d; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8fba7d; 
+  }
