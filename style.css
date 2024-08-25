@@ -10,16 +10,16 @@ body {
 }
 
 a:link {
-    color: #8fba7d; background-color: transparent; text-decoration: none;
+    color: #8fba7d; text-decoration: none;
 }
 a:visited {
-    color: #64a36d; background-color: transparent; text-decoration: none;
+    color: #64a36d; text-decoration: none;
 }
 a:hover {
-    color: #c0db94; background-color: transparent; text-decoration: underline;
+    color: #c0db94; text-decoration: none;
 }
 a:active {
-    color: #e8ffb2; background-color: transparent; text-decoration: underline;
+    color: #e8ffb2; text-decoration: none;
 }
 
 hr {
