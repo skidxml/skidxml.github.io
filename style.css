@@ -50,15 +50,6 @@ h1 {
     margin-bottom: 24px;
 }
 
-.char-icon {
-    background-color: #fffff2;
-    display: inline-block;
-
-}
-.char-icon img:hover {
-    opacity: .8;
-}
-
 /*
 ::-webkit-scrollbar {
     width: 6px;
