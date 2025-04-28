@@ -146,13 +146,13 @@ document.getElementById("submit").addEventListener("click", async function () {
       mode: "no-cors",
     });
 
-    statusText.textContent = "Upload successful!";
-    alert("Image uploaded and submitted successfully ☻");
+    statusText.textContent = "upload successful";
+    alert("image uploaded and submitted successfully : )");
     location.reload();
   } catch (error) {
     console.error(error);
-    statusText.textContent = "Error uploading image.";
-    alert("Error uploading image or submitting to Google Form.");
+    statusText.textContent = "error uploading image";
+    alert("error uploading image or submitting to google form");
   } finally {
     submitButton.disabled = false;
   }
@@ -160,7 +160,7 @@ document.getElementById("submit").addEventListener("click", async function () {
 
 async function fetchImages() {
   if (!DISPLAY_IMAGES) {
-    console.log("Image display is disabled.");
+    console.log("image display is disabled");
     return;
   }
 
@@ -190,8 +190,8 @@ async function fetchImages() {
       }
     });
   } catch (error) {
-    console.error("Error fetching images:", error);
-    document.getElementById("gallery").textContent = "Failed to load images.";
+    console.error("error fetching images:", error);
+    document.getElementById("gallery").textContent = "failed to load images";
   }
 }
 

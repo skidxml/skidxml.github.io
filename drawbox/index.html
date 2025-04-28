@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DRAWBOX</title>
+
+    <title>drawbox</title>
+    <link rel="icon" type="image/x-icon" href="https://www.skidxml.online/icon.ico">
+
+    <meta property="og:title"   content="drawbox" />
+    <meta name="og:description" content="skid"/>
+
+    <link rel="stylesheet" href="https://www.skidxml.online/style.css">
+        
     <style>
         * {box-sizing: border-box;}
         canvas {
@@ -30,24 +38,29 @@
     </style>
 </head>
 <body>
-    <h1>DRAWBOX</h1>
+    <div class="title">
+        <h3><a href="index.html">back to home</a></h3>
+    </div>
+    <h1><u>drawbox</u></h1>
     <canvas id="drawboxcanvas" width="500" height="500"></canvas>
     <br>
     <div onclick="change_color(this)" style="background:red" class="stroke-color"></div>
     <div onclick="change_color(this)" style="background:blue" class="stroke-color"></div>
     
-    <button onclick="Restore()">Undo</button>
-    <button onclick="Clear()">Clear</button>
+    <button onclick="Restore()">undo</button>
+    <button onclick="Clear()">clear</button>
     
     <input type="color" oninput="stroke_color = this.value">
     <input type="range" min="1" max="100" oninput="stroke_width = this.value">
     
-    <button id="submit">Submit drawing</button>
+    <button id="submit">submit</button>
     <p id="status"></p>
 
+    <p>credit to u/nopeacenowhere for the <a href="https://www.reddit.com/r/neocities/comments/1j4dnf9/neocitiesnekoweb_compatible_drawboxoekaki_board/" target="_blank">og drawbox code and tutorial</a></p>
+    <br><hr>
 	
-    <h1>Submitted Drawings ☻</h1>
-    <div id="gallery">Loading images...</div>
+    <h1>submitted drawings</h1>
+    <div id="gallery"><p>loading images...</p></div>
     
     
     <script src="drawbox.js"></script>
