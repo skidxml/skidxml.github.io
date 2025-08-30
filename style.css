@@ -53,21 +53,3 @@ h1 {
     padding: 16px;
     margin-bottom: 24px;
 }
-
-/*
-::-webkit-scrollbar {
-    width: 6px;
-}
-  
-::-webkit-scrollbar-track {
-    background: #00000000; 
-}
-
-::-webkit-scrollbar-thumb {
-    background: #64a36d; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #8fba7d; 
-}
-*/
