@@ -1,2 +1,2 @@
 DirectoryIndex index.php index.html index.htm
-ErrorDocument 404 /404/
+ErrorDocument 404 /404/index.html
