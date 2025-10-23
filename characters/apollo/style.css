@@ -1,7 +1,7 @@
 @media screen and (width >= 720px) {
     .ref {
         display: grid;
-        grid-template-columns: 45% 45%;
+        grid-template-columns: 65% 30%;
         column-gap: 2.5%;
     }
 
