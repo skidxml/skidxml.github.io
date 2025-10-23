@@ -1,7 +1,11 @@
 @media screen and (width >= 720px) {
-    .wrapper {
+    .ref {
         display: grid;
         grid-template-columns: 45% 45%;
         column-gap: 2.5%;
+    }
+
+    .pics {
+        width: 480px;
     }
 }
