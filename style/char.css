@@ -1,0 +1,25 @@
+@media screen and (width >= 720px) {
+    /*for characters with one ref image*/
+    .ref1 {
+        display: grid;
+        grid-template-columns: 30% 65%;
+        column-gap: 2.5%;
+    }
+
+    /*for characters with two ref images*/
+    .ref2 {
+        display: grid;
+        grid-template-columns: 65% 30%;
+        column-gap: 2.5%;
+    }
+}
+
+@media screen and (width >= 530px) {
+    .pics {
+        width: 480px;
+
+        img {
+            padding-top: 8px;
+        }
+    }
+}

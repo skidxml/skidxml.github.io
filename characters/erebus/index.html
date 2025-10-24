@@ -11,7 +11,8 @@
         <meta content="https://www.skidxml.online/icon.png" property="og:image" />
         <meta content="#FFDD00" data-react-helmet="true" name="theme-color" />
 
-        <link rel="stylesheet" href="https://www.skidxml.online/style.css">
+        <link rel="stylesheet" href="/style/main.css">
+        <link rel="stylesheet" href="/style/char.css">
     </head>
         
     <body>
@@ -21,24 +22,27 @@
 
         <h1><u>erebus</u></h1> <br>
 
-        <table>
-            <tr>
-                <td><img src="ref1.png" height="480"></td>
-                <td><img src="ref2.png" height="480"></td>
-                <td>
-                    <h3><u>info</u></h3>
-                    <i>31 y/o, they/them<br>
-                    gay, nonbinary<br>
-                    lion, 6'0"</i>
-                    <br><br>
-                    they like space and fictional worlds<br>
-                    <br><br>
-                    [<a href="./sheet.png"><i>view reference sheet</i></a>]                    
-                </td>
-            </tr>
-        </table> <hr><br>
+        <div class="ref2">
+            <div class="col1">
+                <img src="ref1.png" width="49%">
+                <img src="ref2.png" width="49%">
+            </div>
+            <div class="col2">
+                <h3><u>info</u></h3>
+
+                <i><p>31 y/o, they/them<br>
+                gay, nonbinary<br>
+                lion, 6'0"</p></i>
+
+                <p>they like space and fictional worlds</p>
+                <br>
+                <p>[<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+            </div>
+        </div><hr><br>
 
         <h2><u>other pictures</u></h2> <br>
-        <img src="1.png" width="480">
+        <div class="pics">
+            <img src="1.png" width="100%">
+        </div>
     </body>
 </html>
