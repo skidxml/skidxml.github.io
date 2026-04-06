@@ -1,0 +1,7 @@
+@media screen and (width >= 720px) {
+    .rls {
+        display: grid;
+        grid-template-columns: 25% 70%;
+        column-gap: 2.5%;
+    }
+}
