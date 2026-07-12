@@ -13,30 +13,29 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>archie</h1> <br>
+        <h1>archie</h1>
         
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>24 y/o (b. september 24), he/him<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Bisexual_Pride_Flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="bisexual"><br>
-                rabbit, 5'11"</i>
-                <br><br>
-                active and energetic</p>
+                <h3>info</h3>
+                <p>24 y/o (b. september 24), he/him<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Bisexual_Pride_Flag.svg" title="bisexual"><br>
+                rabbit, 5'11"</p>
+                <br>
+                <h3>description</h3>
+                <p>active and energetic</p>
             </div>
-        </div><!--<hr><br>
-
-        <h2><u>other pictures</u></h2> <br>-->
+        </div>
     </body>
 </html>

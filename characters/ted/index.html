@@ -13,39 +13,41 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>ted</h1><br>
+        <h1>ted</h1>
 
         <div class="ref2">
             <div class="col1">
-                <img src="ref1.png" width="47.5%">
-                <img src="ref2.png" width="47.5%">
+                <img src="ref1.png" width="47.5%"><img src="ref2.png" width="47.5%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>28 y/o (b. october 30), he/they<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><br>
-                scranton, 5'11"</i>
-                <br><br>
-                quiet and timid, though very warm and loving<br>
-                doesn't do much and is usually lazing around</p>
+                <h3>info</h3>
+                <p>28 y/o (b. october 30), he/they<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><br>
+                scranton, 5'11"</p>
                 <br>
-                <h3><u>relationships</u></h3>
-                <p>friends with <a href="../maxwell/">maxwell</a> and his family<br>
-                friends with <a href="../scranton/">scranton</a>
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>description</h3>
+                <p>quiet and timid, though very warm and loving</p>
+                <p>doesn't do much and is usually lazing around</p>
+                <p>favorite food is cereal</p>
+                <br>
+                <h3>relationships</h3>
+                <p>friends with <a href="../maxwell/">maxwell</a> and his family</p>
+                <p>friends with <a href="../scranton/">scranton</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
-        <h2><u>other pictures</u></h2><br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.png" width="100%">
             <img src="2.png" width="100%">

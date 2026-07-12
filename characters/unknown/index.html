@@ -13,35 +13,37 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>??? <i>"unknown"</i></h1><br>
+        <h1>??? "unknown"</h1>
 
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>ageless (b. june 30), he/they/it<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><br>
-                ???, 8'0"</i>
-                <br><br>
-                very silly, but comes off as intimidating<br>
-                their arms are usually held up like that<br>
-                their eyes can also become a mouth
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>info</h3>
+                <p>ageless (b. june 30), he/they/it<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><br>
+                ???, 8'0"</p>
+                <br>
+                <h3>description</h3>
+                <p>very silly, but comes off as intimidating</p>
+                <p>their arms are usually held up like that</p>
+                <p>their eyes can also become a mouth</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
-        <h2><u>other pictures</u></h2><br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.png" width="100%">
             <img src="2.png" width="100%">

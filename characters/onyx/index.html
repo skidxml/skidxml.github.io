@@ -13,37 +13,40 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>onyx</h1> <br>
+        <h1>onyx</h1>
         
         <div class="ref2">
             <div class="col1">
-                <img src="ref1.png" width="47.5%">
-                <img src="ref2.png" width="47.5%">
+                <img src="ref1.png" width="47.5%"><img src="ref2.png" width="47.5%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>32 y/o (b. december 5), he/they<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><br>
-                lynx cat, 6'6"</i>
-                <br><br>
-                overly confident<br>
-                he works out so he's pretty strong, but not much visible muscle
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>info</h3>
+                <p>32 y/o (b. december 5), he/they<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><br>
+                lynx cat, 6'6"</p>
+                <br>
+                <h3>description</h3>
+                <p>overly confident</p>
+                <p>he works out so he's pretty strong, but not much visible muscle</p>
+                <p>favorite food is donuts</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
-        <h2><u>other pictures</u></h2><br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.jpg" width="100%">
+            <img src="2.jpg" width="100%">
         </div>
     </body>
 </html>

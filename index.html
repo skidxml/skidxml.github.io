@@ -12,14 +12,20 @@
         <meta content="#FFDD00" data-react-helmet="true" name="theme-color" />
 
         <link rel="stylesheet" href="/style/main.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     
     <body>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
+
         <h1>skid</h1>
         <p>welcome to my website!<br>
-        here you can find info about me and things i've made</p>
+        here you can find info about me and things i've made<br>
+        use the links below or the navigation bar above</p>
         <br>
-        <p><a href="about/">about me/links</a></p>
+        <p><a href="about/">about me + links</a></p>
         <p><a href="characters/">my characters</a></p>
         <p><a href="music/">my music</a></p>
     </body>

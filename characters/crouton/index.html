@@ -13,36 +13,34 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>crouton</h1><br>
+        <h1>crouton</h1>
         
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>19 y/o (b. may 26), any pronouns<br>
-                <img title="aroace" src="https://upload.wikimedia.org/wikipedia/commons/1/12/Aroace_flag.svg" width="64px" style="padding: 6px; padding-left: 0px;"><img title="genderfluid" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Genderfluidity_Pride-Flag.svg" width="64px" style="padding: 6px; padding-left: 0px;"><br>
-                cat, 5'10"</i>
-                <br><br>
-                not very talkative<br>
-                bassist of <a href="/crumbs/">Crumbs</a><br>
-                (only let into the band because they were begging for it...)</p>
+                <h3>info</h3>
+                <p>19 y/o (b. may 26), any pronouns<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/1/12/Aroace_flag.svg" title="aroace"><img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Genderfluidity_Pride-Flag.svg" title="genderfluid"><br>
+                cat, 5'10"</p>
                 <br>
-                <h3><u>relationships</u></h3>
-                <p><a href="../cheezit/">cheez-it</a>'s sibling<br>
-                friends with <a href="../caesar/">caesar</a></p>
+                <h3>description</h3>
+                <p>not very talkative</p>
+                <p>bassist of <a href="/crumbs/">crumbs</a>; they were only let in because they were begging for it</p>
+                <br>
+                <h3>relationships</h3>
+                <p><a href="../cheezit/">cheez-it</a>'s sibling</p>
+                <p>friends with <a href="../caesar/">caesar</a></p>
             </div>
-        </div><!-- <hr><br>
-
-        <h2><u>other pictures</u></h2> <br>-->
+        </div>
     </body>
 </html>

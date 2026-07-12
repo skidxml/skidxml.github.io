@@ -13,38 +13,39 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>klondike</h1><br>
+        <h1>klondike</h1>
         
         <div class="ref2">
             <div class="col1">
-                <img src="ref1.png" width="47.5%">
-                <img src="ref2.png" width="47.5%">
+                <img src="ref1.png" width="47.5%"><img src="ref2.png" width="47.5%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>50 y/o (b. december 29), he/him<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Bear_Brotherhood_flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="bear"><br>
-                kodiak bear, 7'6"</i>
-                <br><br>
-                usually relaxed and lazy, acts much like bagel<br>
-                he loves music, mostly anything calm or quiet. prefers using a record player</p>
+                <h3>info</h3>
+                <p>50 y/o (b. december 29), he/him<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Bear_Brotherhood_flag.svg" title="bear"><br>
+                kodiak bear, 7'6"</p>
                 <br>
-                <h3><u>relationships</u></h3>
-                <p><a href="../bagel/">bagel</a>'s boyfriend
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>description</h3>
+                <p>usually relaxed and lazy, acts much like bagel</p>
+                <p>he loves music, mostly anything calm or quiet. prefers using a record player</p>
+                <br>
+                <h3>relationships</h3>
+                <p><a href="../bagel/">bagel</a>'s boyfriend</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
-        <h2><u>other pictures</u></h2><br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.jpg" width="100%">
         </div>

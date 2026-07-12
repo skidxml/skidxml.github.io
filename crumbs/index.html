@@ -12,20 +12,24 @@
         <meta content="#FFDD00" data-react-helmet="true" name="theme-color" />
 
         <link rel="stylesheet" href="/style/main.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     
     <body>
-        <div class="title">
-            <h3><a href="../">back to home</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>info</h1>
-        <p>crumbs is a fictional band consisting of <a href="/characters/cheezit/">cheez-it</a> (frontman, guitarist), <a href="/characters/caesar/">caesar</a> (drummer), and <a href="/characters/crouton/">crouton</a> (bassist)<br>
-        inspired mostly by rat restaurant and venturing</p><br>
-        <img src="crumbs.jpg" width="360"> <!--make div for this at some point-->
-        <p>(photo of all three)</p><br>
-        <hr><br>
-        <h1>links</h1>
+        <h1>crumbs</h1>
+        <p>crumbs is a fictional three-piece band of cats</p>
+        <br>
+        <img src="crumbs.jpg" width="360">
+        <h3>members (left to right)</h3>
+        <p><a href="/characters/cheezit/">cheez-it</a> (frontman, guitarist)</p>
+        <p><a href="/characters/crouton/">crouton</a> (bassist, keyboard player)</p>
+        <p><a href="/characters/caesar/">caesar</a> (drummer)</p>
+        <hr>
+        <h2>links</h2>
         <p><a href="https://crumbsband.bandcamp.com" target="_blank">bandcamp</a></p>
         <p><a href="https://soundcloud.com/crumbsband" target="_blank">soundcloud</a></p>
         <p><a href="https://x.com/crumbsband" target="_blank">twitter</a></p>

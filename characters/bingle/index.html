@@ -13,35 +13,34 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>bingle</h1> <br>
+        <h1>bingle</h1>
 
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>17 y/o (b. march 1), he/him<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="pansexual"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Transgender_Pride_flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="transgender"><br>
-                raccoon, 5'10"</i>
-                <br><br>
-                energetic, friendly, and talkative</p>
+                <h3>info</h3>
+                <p>17 y/o (b. march 1), he/him<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg" title="pansexual"><img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Transgender_Pride_flag.svg" title="transgender"><br>
+                raccoon, 5'10"</p>
                 <br>
-                <h3><u>relationships</u></h3>
-                <p><a href="../rascal/">rascal</a>'s boyfriend
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>description</h3>
+                <p>energetic, friendly, and talkative</p>
+                <br>
+                <h3>relationships</h3>
+                <p><a href="../rascal/">rascal</a>'s boyfriend</p>
             </div>
-        </div><!-- <hr><br>
-
-        <h2><u>other pictures</u></h2> <br> -->
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
     </body>
 </html>

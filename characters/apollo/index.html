@@ -13,38 +13,39 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>apollo</h1><br>
+        <h1>apollo</h1>
         
         <div class="ref2">
             <div class="col1">
-                <img src="ref1.png" width="47.5%">
-                <img src="ref2.png" width="47.5%">
+                <img src="ref1.png" width="47.5%"><img src="ref2.png" width="47.5%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>30 y/o (b. march 9), he/him<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="pansexual"><br>
-                moth, 6'6"</i>
-                <br><br>
-                carefree and silly, very active<br>
-                loves gardening and is interested in technology
+                <h3>info</h3>
+                <p>30 y/o (b. march 9), he/him<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg" title="pansexual"><br>
+                moth, 6'6"</p>
                 <br>
-                <h3><u>relationships</u></h3>
-                <p><a href="../rec/">rec</a>'s boyfriend
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>description</h3>
+                <p>carefree and silly, very active</p>
+                <p>loves gardening and is interested in technology</p>
+                <br>
+                <h3>relationships</h3>
+                <p><a href="../rec/">rec</a>'s boyfriend</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
-        <h2><u>other pictures</u></h2><br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.jpg" width="100%">
             <img src="2.jpg" width="100%">
@@ -52,7 +53,7 @@
             <img src="4.jpg" width="100%">
 			<img src="5.jpg" width="100%">
              <img src="../multiple/3.jpg" width="100%">
-            <p>(with <a href="../rec/">rec</a>)</p>
+            <p>(with rec)</p>
         </div>
     </body>
 </html>

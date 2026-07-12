@@ -13,36 +13,38 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>erebus</h1><br>
+        <h1>erebus</h1>
 
         <div class="ref2">
             <div class="col1">
-                <img src="ref1.png" width="47.5%">
-                <img src="ref2.png" width="47.5%">
+                <img src="ref1.png" width="47.5%"><img src="ref2.png" width="47.5%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>31 y/o (b. october 20), they/them<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Nonbinary_flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="non-binary"><br>
-                lion, 6'0"</i>
-                <br><br>
-                outgoing and cheerful, they'll gladly become anyone's friend<br>
-                they're really interested in space and literature, mostly fiction<br>
-                their eye can also become a mouth
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>info</h3>
+                <p>31 y/o (b. october 20), they/them<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Nonbinary_flag.svg" title="non-binary"><br>
+                lion, 6'0"</p>
+                <br>
+                <h3>description</h3>
+                <p>outgoing and cheerful, they'll gladly become anyone's friend</p>
+                <p>they're really interested in space and literature, mostly fiction</p>
+                <p>their eye can also become a mouth</p>
+                <p>favorite drink is dr. pepper</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
-        <h2><u>other pictures</u></h2> <br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.png" width="100%">
             <img src="2.png" width="100%">

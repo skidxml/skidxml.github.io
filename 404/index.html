@@ -12,13 +12,15 @@
         <meta content="#FFDD00" data-react-helmet="true" name="theme-color" />
 
         <link rel="stylesheet" href="/style/main.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     
     <body>
-        <div class="title">
-            <h3><a href="../">back to home</a></h3>
-        </div>
-            <p>nothing here</p><br>
-            <img src="squish.webp" width=100px>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
+
+        <h1>404</h1>
+        <p>nothing here :(</p><br>
     </body>
 </html>

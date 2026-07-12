@@ -13,16 +13,16 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/icon.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     
     <body>
-        <div class="title">
-            <h3><a href="../">back to home</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
         
         <h1>characters</h1>
-        <p>click on a character to view their gallery<br>
-        (hover to show their name)</p>
+        <p>click on a character to view their info and gallery</p>
         <br>
         <div class="icon">
             <a href="./skid/">      <img loading="lazy" title="skid"       src="skid/icon.png"></a>

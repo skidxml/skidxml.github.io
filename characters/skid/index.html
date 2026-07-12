@@ -13,33 +13,35 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>skid</h1><br>
+        <h1>skid</h1>
         
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>21 y/o (b. march 6), he/they/it<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Bear_Brotherhood_flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="bear"><br>
-                maine coon cat, 6'0"</i>
-                <br><br>
-				fursona<br>
-                big and sleepy cat<br>
-				not very expressive</p>
+                <h3>info</h3>
+                <p>21 y/o (b. march 6), he/they<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Bear_Brotherhood_flag.svg" title="bear"><br>
+                maine coon cat, 6'0"</p>
+                <br>
+                <h3>description</h3>
+				<p>fursona</p>
+                <p>big and sleepy cat</p>
+				<p>not very expressive</p>
             </div>
-        </div><hr><br>
+        </div>
+        <hr>
 
-        <h2><u>other pictures</u></h2><br>
+        <h2>other pictures</h2>
         <div class="pics">
             <img src="1.png" width="100%">
             <img src="2.png" width="100%">

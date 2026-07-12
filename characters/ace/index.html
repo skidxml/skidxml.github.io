@@ -13,32 +13,34 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>ace</h1><br>
+        <h1>ace</h1>
         
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>25 y/o (b. november 18), he/him<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><br>
-                crow, 6'3"</i>
-                <br><br>
-                very smug and also very gay<br>
-                he smokes often but he's not a stoner
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>info</h3>
+                <p>25 y/o (b. november 18), he/him<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><br>
+                crow, 6'3"</p>
+                <br>
+                <h3>description</h3>
+                <p>very smug and also very gay</p>
+                <p>he smokes often but he's not a stoner</p>
             </div>
-        </div><hr><br>
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
+        <hr>
 
         <h2><u>other pictures</u></h2><br>
             <div class="pics">
@@ -53,6 +55,7 @@
                 <img src="9.jpg" width="100%">
                 <img src="10.jpg" width="100%">
                 <img src="11.jpg" width="100%">
+                <img src="12.jpg" width="100%">
             </div>
     </body>
 </html>

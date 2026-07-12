@@ -13,34 +13,32 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>casper</h1> <br>
+        <h1>casper</h1>
         
         <div class="ref2">
             <div class="col1">
-                <img src="ref1.png" width="47.5%">
-                <img src="ref2.png" width="47.5%">
+                <img src="ref1.png" width="47.5%"><img src="ref2.png" width="47.5%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>34 y/o (b. april 29), he/it<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" width="64px" style="padding: 6px; padding-left: 0px;" title="gay"><br>
-                snake, 5'10"</i>
-                <br><br>
-                sweet and very shy<br>
-                tail is around 12' long
-                <br><br>
-                [<a href="./sheet.png"><i>view reference sheet</i></a>]</p>
+                <h3>info</h3>
+                <p>34 y/o (b. april 29), he/it<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Gay_male_Seven_Stripe_Flag.png" title="gay"><br>
+                snake, 5'10"</p>
+                <br>
+                <h3>description</h3>
+                <p>sweet and very shy</p>
+                <p>tail is around 12' long</p>
             </div>
-        </div><!-- <hr><br>
-
-        <h2><u>other pictures</u></h2> <br>-->
+        </div>
+        <br>
+        <p><a href="./sheet.png">view reference sheet</a></p>
     </body>
 </html>

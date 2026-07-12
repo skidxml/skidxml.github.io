@@ -13,35 +13,34 @@
 
         <link rel="stylesheet" href="/style/main.css">
         <link rel="stylesheet" href="/style/char.css">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
         
     <body>
-        <div class="title">
-            <h3><a href="../index.html">back to characters</a></h3>
-        </div>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("/nav.html");});</script>
 
-        <h1>caesar</h1> <br>
+        <h1>caesar</h1>
         
         <div class="ref1">
             <div class="col1">
                 <img src="ref.png" width="100%">
             </div>
             <div class="col2">
-                <h3><u>info</u></h3>
-
-                <p><i>22 y/o (b. april 15), he/him<br>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg" width="64px" style="padding: 6px; padding-left: 0px;" title="pansexual"><br>
-                cat, 5'10"</i>
-                <br><br>
-                stern and overconfident, but can sometimes be soft<br>
-                drummer of <a href="/crumbs/">Crumbs</a></p>
+                <h3>info</h3>
+                <p>22 y/o (b. april 15), he/him<br>
+                <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg" title="pansexual"><br>
+                cat, 5'10"</p>
                 <br>
-                <h3><u>relationships</u></h3>
-                <p><a href="../cheezit/">cheez-it</a>'s boyfriend<br>
-                friends with <a href="../crouton/">crouton</a></p>
+                <h3>description</h3>
+                <p>stern and overconfident, but can sometimes be soft</p>
+                <p>drummer of <a href="/crumbs/">crumbs</a></p>
+                <br>
+                <h3>relationships</h3>
+                <p><a href="../cheezit/">cheez-it</a>'s boyfriend</p>
+                <p>friends with <a href="../crouton/">crouton</a></p>
             </div>
-        </div><!-- <hr><br>
-
-        <h2><u>other pictures</u></h2> <br>-->
+        </div>
     </body>
 </html>
