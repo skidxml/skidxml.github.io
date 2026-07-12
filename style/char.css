@@ -2,7 +2,7 @@
     /*for characters with one ref image*/
     .ref1 {
         display: grid;
-        grid-template-columns: 30% 65%;
+        grid-template-columns: 30% 30%;
         column-gap: 2.5%;
     }
 
@@ -12,14 +12,14 @@
         grid-template-columns: 65% 30%;
         column-gap: 2.5%;
     }
+
+    .pics {
+        width: 30%;
+    }
 }
 
-@media screen and (width >= 530px) {
-    .pics {
-        width: 480px;
-
-        img {
+.pics {
+    img {
             padding-top: 8px;
         }
-    }
 }
