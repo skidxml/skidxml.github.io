@@ -1,10 +1,10 @@
 @font-face {
-    font-family: pixel;
-    src: url(pixel.ttf);
+    font-family: "DepartureMono";
+    src: url(DepartureMono-Regular.otf);
 }
 
 body {
-    font-family: pixel;
+    font-family: "DepartureMono";
     background-color: #14171a;
     margin: 24px;
 }
@@ -43,9 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, h2 {
     text-decoration: underline;
-}
-h3, h4, h5, h6 {
-    font-weight: normal;
 }
 
 #nav-placeholder {
