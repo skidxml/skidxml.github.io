@@ -48,3 +48,9 @@ h1, h2 {
 #nav-placeholder {
     padding-bottom: 32px;
 }
+
+@media screen and (width >= 960px) {
+    p {
+        width: 960px;
+    }
+}
