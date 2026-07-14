@@ -49,6 +49,12 @@ h1, h2 {
     padding-bottom: 32px;
 }
 
+#flag {
+    padding: 8px;
+    padding-left: 0px;
+    width: 64px;
+}
+
 @media screen and (width >= 960px) {
     p {
         width: 960px;

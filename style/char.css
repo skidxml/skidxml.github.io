@@ -1,31 +1,26 @@
 @media screen and (width >= 720px) {
-    /*for characters with one ref image*/
-    .ref1 {
+    .ref1, .ref2 {
         display: grid;
-        grid-template-columns: 30% 30%;
         column-gap: 2.5%;
+        p {
+            width: 100%;
+        }
     }
-
-    /*for characters with two ref images*/
-    .ref2 {
-        display: grid;
-        grid-template-columns: 65% 30%;
-        column-gap: 2.5%;
-    }
+    .ref1 {grid-template-columns: 30% 30%;}
+    .ref2 {grid-template-columns: 65% 30%;}
 
     .pics {
         width: 30%;
     }
 }
 
-.pics {
+.ref1, .pics {
     img {
-            padding-top: 8px;
-        }
+        width: 100%;
+    }
 }
-
-#flag {
-    padding: 8px;
-    padding-left: 0px;
-    width: 64px;
+.ref2 {
+    img {
+        width: 47.5%;
+    }
 }

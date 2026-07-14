@@ -10,9 +10,19 @@ ul {
     width: 100%;
 }
 
+ul li {
+    float: left;
+    border-right: 1px solid #14171a;
+}
+
+ul li:last-child {
+    border-right: none;
+}
+
 ul li a {
     display: block;
-    padding: 16px;
+    padding: 16px 12px;
+    font-size: small;
 }
 
 ul li a:hover {
@@ -22,7 +32,7 @@ ul li a:hover {
 
 <nav>
 <ul>
-    <li><a href="/index.html">home</a></li>
+    <li><a href="/">home</a></li>
     <li><a href="/about/">about</a></li>
     <li><a href="/characters/">characters</a></li>
     <li><a href="/music/">music</a></li>
