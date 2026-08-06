@@ -52,7 +52,7 @@ h1, h2 {
 #flag {
     padding: 8px;
     padding-left: 0px;
-    height: 48px !important;
+    height: 48px;
 }
 
 @media screen and (width >= 960px) {
