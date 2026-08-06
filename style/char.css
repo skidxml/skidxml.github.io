@@ -1,32 +1,32 @@
+.char {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ref {
+    padding: 0 8px;
+}
+.ref img {
+    height: 40vw;
+}
+.ref .info {
+    flex: 100%;
+}
+.gallery img {
+    width: 100%;
+    padding-top: 8px;
+}
+
 @media screen and (width >= 720px) {
-    .ref1, .ref2 {
-        display: grid;
-        column-gap: 2.5%;
-        p {
-            width: 100%;
-        }
+    .char {
+        flex-wrap: nowrap;
     }
-    .ref1 {grid-template-columns: 30% 30%;}
-    .ref2 {grid-template-columns: 65% 30%;}
-
-    .pics {
-        width: 30%;
+    .gallery {
+        width: 480px;
     }
-}
-
-.ref1 {
-    img {
-        width: 100%;
+    .ref img {
+        height: 480px;
     }
-}
-.ref2 {
-    img {
-        width: 47.5%;
-    }
-}
-.pics {
-    img {
-        width: 100%;
-        padding-top: 8px;
+    .info {
+        max-width: 30%;
     }
 }
