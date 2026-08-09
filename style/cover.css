@@ -1,7 +1,22 @@
+.release {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cover {
+    padding: 0 8px;
+}
+.cover img {
+    width: 100%;
+}
+.cover .info {
+    flex: 100%;
+}
+
 @media screen and (width >= 720px) {
-    .rls {
-        display: grid;
-        grid-template-columns: 25% 35%;
-        column-gap: 2.5%;
+    .release {
+        flex-wrap: nowrap;
+    }
+    .cover {
+        width: 480px;
     }
 }
