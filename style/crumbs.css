@@ -1,0 +1,9 @@
+#crumbs {
+    width: 100%;
+}
+
+@media screen and (width >= 720px) {
+    #crumbs {
+        width: 480px;
+    }
+}
