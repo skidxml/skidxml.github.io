@@ -6,7 +6,7 @@
     }
 }
 
-@media screen and (width >= 612px) {
+@media screen and (width > 768px) {
     .icon {
         img {
             width: 270px;
