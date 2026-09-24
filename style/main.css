@@ -55,7 +55,7 @@ h1, h2 {
     height: 48px;
 }
 
-@media screen and (width >= 960px) {
+@media screen and (width > 960px) {
     p {
         max-width: 960px;
     }
