@@ -3,10 +3,11 @@
     flex-wrap: wrap;
 }
 .cover {
-    padding: 0 8px;
+    padding-right: 16px;
 }
 .cover img {
     width: 100%;
+    border: 3px solid #FFFFF2;
 }
 .cover .info {
     flex: 100%;

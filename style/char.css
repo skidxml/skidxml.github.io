@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .ref {
-    padding: 0 8px;
+    padding-right: 16px;
 }
 .ref img {
     width: 100%;
